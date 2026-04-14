@@ -1,0 +1,23 @@
+# Windows executables (DO NOT COMMIT)
+*.exe
+*.dll
+
+# Audio intermediates
+*.wav
+*.flac
+*.aiff
+
+# Temporary files
+*.tmp
+*.log
+
+# Zips (optional: depends if you want to store builds)
+# *.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Personal tool binaries folder (optional rule)
+tools/**/bin/
+tools/**/PSP_at3tool.exe
