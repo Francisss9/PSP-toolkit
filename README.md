@@ -141,7 +141,10 @@ The goal is to build a **clean, structured, and reliable PSP modding environment
 
 ## 📌 Roadmap
 
-* [ ] Add verified tool set
+* [ ] Finish AT3 converter setup
+* [ ] Add first complete tool (stable)
+* [ ] Introduce CFW installers
+* [ ] Add plugin pack with configs
 * [ ] Write detailed setup guides
 * [ ] Improve documentation quality
 * [ ] Add automation scripts
