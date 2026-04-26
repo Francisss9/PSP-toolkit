@@ -10,5 +10,7 @@
 
 ### AT3-tool
 
-  1. "ffmpeg -i "file.mp3" -t 50 -ar 44100 -ac 2 new_file.wav"
-  2. "wine PSP_at3tool.exe -e -br 64 new_file.wav SND0.AT3"
+```sh
+ffmpeg -i "file.mp3" -t 50 -ar 44100 -ac 2 new_file.wav
+wine PSP_at3tool.exe -e -br 64 new_file.wav SND0.AT3
+```
