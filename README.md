@@ -1,9 +1,6 @@
 # 🎮 PSP Toolkit
 
-> **All-in-one PlayStation Portable (PSP) modding toolkit**
-> Firmware, plugins, utilities, and recovery tools — organized, curated, and ready to use.
-
----
+<br>
 
 ## 📌 Overview
 
