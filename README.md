@@ -33,7 +33,7 @@ This project prioritizes:
 PSP-toolkit/
 │
 ├── tools/          # Core modding software
-├── firmware/       # CFW files and installers
+├── firmware/       # CFW files, installers and links to github repositories
 ├── plugins/        # PSP plugins (.prx and configs)
 ├── recovery/       # Recovery and unbricking tools
 ├── docs/           # Guides and documentation
@@ -97,8 +97,8 @@ cd PSP-toolkit
 This repository is for **educational and preservation purposes only**.
 
 * You are responsible for how you use these tools
-* Incorrect usage may brick your PSP
-* Always verify compatibility with your model and firmware
+* Incorrect usage may brick your PSP and since it's old hardware be aware.
+* Always verify compatibility with your model and firmware because doing something for 1k and it's only for 3k model, it can damage your PSP or not even work properly.
 
 ---
 
@@ -106,8 +106,9 @@ This repository is for **educational and preservation purposes only**.
 
 Detailed guides will be available in the `/docs` directory:
 
-* Installing CFW
+* Installing and using new CFW
 * Plugin configuration
+* Best/Popular plugins and how to install
 * Recovery procedures
 
 ---
