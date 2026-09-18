@@ -32,13 +32,17 @@ This project prioritizes:
 ```
 PSP-toolkit/
 │
-├── tools/          # Core modding software
-├── firmware/       # CFW files, installers and links to github repositories
-├── plugins/        # PSP plugins (.prx and configs)
-├── recovery/       # Recovery and unbricking tools
-├── docs/           # Guides and documentation
+├── tools/              # Core modding software, one folder per tool
+│   └── at3-converter/  # mp3 → AT3 conversion pipeline
+├── firmware/            # CFW files, installers and links to github repositories
+├── plugins/             # PSP plugins (.prx and configs)
+├── recovery/            # Recovery and unbricking tools
+├── docs/                # Guides and documentation
 └── README.md
 ```
+
+Each tool folder is self-contained: it has its own `README.md` explaining what it does,
+its requirements, and how to use it.
 
 ---
 
@@ -67,7 +71,7 @@ cd PSP-toolkit
 
 * **Run Tools**
 
-  * Use files inside `tools/` depending on your need
+  * Navigate to `tools/<tool-name>/` and follow its README
 
 ---
 
@@ -85,7 +89,8 @@ cd PSP-toolkit
 
 ### Utilities
 
-* AT3 Converter
+* [AT3 Converter](tools/at3-converter/README.md) — mp3/wav → AT3 conversion pipeline
+
 ### Recovery
 
 * N/A
@@ -126,6 +131,8 @@ Contributions are welcome if they improve:
 * Keep structure clean and consistent
 * Avoid duplicate or unsafe tools
 * Document anything you add
+* Each tool lives in its own folder under `tools/`, `firmware/`, `plugins/` or `recovery/`,
+  with its own README
 
 ---
 
@@ -139,7 +146,7 @@ The goal is to build a **clean, structured, and reliable PSP modding environment
 
 ## 📌 Roadmap
 
-* [ ] Finish AT3 converter setup
+* [x] Finish AT3 converter setup
 * [ ] Add first complete tool (stable)
 * [ ] Introduce CFW installers
 * [ ] Add plugin pack with configs
