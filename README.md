@@ -89,7 +89,7 @@ cd PSP-toolkit
 
 ### Utilities
 
-* [AT3 Converter](tools/at3-converter/README.md) — mp3/wav → AT3 conversion pipeline
+* [AT3 Converter](Tools/at3-converter/README.md) — mp3/wav → AT3 conversion pipeline
 
 ### Recovery
 
